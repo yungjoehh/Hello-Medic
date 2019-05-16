@@ -1,0 +1,153 @@
+body , html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Quicksand' ,'sans-serif';
+}
+
+.landing {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    width: 324px;
+    height: 132.5px;
+    background-color: lightgrey;
+    margin: 0;
+    line-height: 90px;
+    text-align: center;
+    color: white;
+   
+}
+
+.login-btn {
+    width: 108px;
+    height: 46px;
+    margin: 15px 25px;
+    color: white;
+    border: none;
+    background: #ec3237;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    position: absolute;
+}
+
+
+
+
+
+.content {
+    margin: 25px 150px;
+}
+
+.content h2{
+    width: 483px;
+    height: 124px;
+    margin: 0;
+    font-size: 52px;
+    font-family: Quicksand;
+    font-weight: bold;
+    line-height: normal;
+    color: #3f3d56;
+}
+
+.content p {
+   width: 495px;
+   height: 26px;
+   font-size: 16px;
+   margin: 0;
+   font-family: Quicksand;
+   font-weight: 500;
+   line-height: 1.41;
+   color: rgba(73, 83, 105, 0.7)
+}
+
+.med-il {
+    position: absolute;
+    top: 120px;
+    left: 740px;
+    width: 180px;
+    height: 339.3px;
+}
+
+.what-we-do-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 139px;
+}
+
+.what-we-do{
+    margin-bottom: 15px;
+    margin-top: 76px;
+    text-align: center;
+}
+
+
+
+/* buttons */
+ .btn {
+     width: 159px;
+     height: 30px;
+     font-family: Quicksand;
+     color: #ffffff;
+     font-size: 21px;
+     background-color: green;
+     border: none;
+     border-radius: 5px;
+     font-weight: bold;
+ }
+
+ .services {
+     background-color: #727a9c;;
+     padding: 30px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .healthkit {
+     margin: 9px;
+     background: white;
+     width: 30%;
+     height: 100%;
+     text-align: center;
+     padding: 35px 15px;
+     border-radius: 8px;
+     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.15);
+     border: solid 1px #e0e0e0;
+ }
+
+
+
+ /* all p tags should be styled like this */
+
+ p {
+     color: #3f3d56;
+ }
+
+ footer {
+     display: flex;
+     justify-content: space-between;
+     font-size: 10px;
+ }
+
+ footer p {
+     margin-left: 16px;
+ }
+
+ .icons {
+    width: 19px;
+    font-size: 15px;
+    height: 18.3px;
+    color: #d97159;
+ }

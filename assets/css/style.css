@@ -1,0 +1,225 @@
+body , html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Quicksand' ,'sans-serif';
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    width: 219px;
+    height: 100.5px;
+    background-color: lightgrey;
+    margin: 0;
+    line-height: 90px;
+    text-align: center;
+    color: white;  
+}
+
+.login-btn {
+    width: 108px;
+    height: 46px;
+    margin: 15px 25px;
+    color: white;
+    border: none;
+    background: #ec3237;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+}
+
+
+.contents {
+ display: flex;
+ justify-content: space-around;
+ 
+}
+
+.contents h2 {
+    width: 400px;
+    height: 82px;
+    font-size: 52px;
+}
+
+.contents p {
+        width: 400px;
+        height: 10px;
+        font-size: 12px;
+    }
+
+.med-il {
+    position: absolute;
+    top: 120px;
+    left: 959px;
+    width: 180px;
+    height: 339.3px;
+}
+
+.what-we-do-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 139px;
+}
+
+.what-we-do{
+    margin-bottom: 25px;
+    margin-top: 76px;
+    text-align: center;
+}
+
+#prescriptions-btn{
+    margin-top: 15px;
+}
+
+
+/* buttons */
+ .btn {
+     padding: 10px 16px;
+     font-family: Quicksand;
+     color: #ffffff;
+     font-size: 12px;
+     background-color: #ec3237;
+     border: none;
+     border-radius: 5px;
+     font-weight: bold;
+ }
+
+ .services {
+     background-color: #727a9c;
+     padding: 30px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .box {
+     margin: 9px;
+     background: white;
+     width: 33.3%;
+     text-align: center;
+     padding: 35px 15px;
+     border-radius: 8px;
+     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.15);
+     border: solid 1px #e0e0e0;
+ }
+
+ .dropdown {
+     position: relative;
+     display: inline-block;
+ }
+
+ .dropcontents {
+     position: absolute;
+     background: linear-gradient(to right, #009fff, #ec2f4b);
+     min-width: 168px;
+     z-index: 1;
+     border-radius: 5px;
+     right: 0;
+     padding: 12px 16px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+     color: white;
+     animation: 0.1s fadein 1s forwards;
+     opacity: 0;
+ }
+
+ @keyframes fadein {
+     0% {
+         opacity: 0;
+     }
+
+     50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 0.9;
+    }
+ }
+
+
+ .dropcontents button {
+     margin-top: 10px;
+     padding: 8px;
+     border: none;
+     color: white;
+     background-color: rgba(0, 255, 0, 0.7);
+
+ }
+
+
+
+ /* all p & a tags should be styled like this */
+ a {
+     text-decoration: none;
+ }
+ p {
+     color: #3f3d56;
+ }
+
+ /* footer styles */
+
+ footer {
+     display: flex;
+     justify-content: space-between;
+     font-size: 16px;
+     position: relative;
+     width: 100%;
+     bottom: 0;
+ }
+
+ 
+
+ .icons {
+    width: 19px;
+    font-size: 15px;
+    height: 18.3px;
+    color: #d97159;
+ }
+
+ 
+
+ .contents img {
+    height: 241px;
+    width: 133px;
+ }
+
+/* @media queries */
+
+@media screen and (max-width:750px) {
+    header {
+      display: flex;
+    }
+
+    .header {
+        width: 150px;
+        height: 85px;
+        font-size: 20px;
+    }
+
+    .contents img {
+        display: none;
+    }
+
+    .content-items {
+        text-align: center;
+    }
+   
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+    }
+    
+}
+
